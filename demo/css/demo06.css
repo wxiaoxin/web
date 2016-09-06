@@ -1,0 +1,17 @@
+h2,
+p {
+    text-align: center
+}
+
+#div1 {
+    /*容器内容内联元素居中对齐*/
+    text-align: center;
+}
+
+#div2 {
+    text-align: center;
+    width: 500px;
+    height: 300px;
+    margin: 10px auto;
+    background-color: cadetblue;
+}

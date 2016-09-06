@@ -1,0 +1,40 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+div {
+    /*居中*/
+    text-align: center;
+    /*外边距*/
+    margin: 50px;
+    /*边框宽度*/
+    border-width: 3px;
+    /*边框样式*/
+    border-style: dashed;
+    /*边框颜色*/
+    border-color: red;
+    /*
+        快捷设置边框样式：
+        border: 3px dashed red;
+    */
+    /*
+        单独设置某一个边框的样式
+        border-top: ;
+        border-right: ;
+        border-bottom: ;
+        border-left: ;
+    */
+    /*内边距*/
+    padding: 20px;
+}
+
+h2 {
+    background-color: seagreen;
+    padding: 2px;
+}
+
+li {
+    font-size: 18px;
+    font-weight: bold
+}

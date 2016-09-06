@@ -1,0 +1,20 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+div {
+    width: 400px;
+    height: 300px;
+    margin: 10px;
+}
+
+#div1 {
+    background-color: rebeccapurple;
+    float: left
+}
+
+#div2 {
+    background-color: palevioletred;
+    float: right
+}

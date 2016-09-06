@@ -1,0 +1,36 @@
+body {
+    /*字体*/
+    font-family: "Microsoft Yahei";
+    /*字体大小*/
+    font-size: 20px;
+    /*加粗*/
+    font-weight: bold;
+    /*字体样式*/
+    font-style: italic;
+    /*下划线*/
+    text-decoration: underline;
+    /*删除线*/
+    text-decoration: line-through;
+    /*上划线*/
+    text-decoration: overline;
+}
+
+p {
+    /*段落缩进 2em表示文字的两倍大小*/
+    text-indent: 2em;
+    /*段落行间距*/
+    line-height: 2em;
+    /*文字间隔*/
+    letter-spacing: 20px;
+}
+
+div {
+    /*块状元素内的文本、图片居中center 居左left 居右right*/
+    text-align: center;
+    /*block块状元素转成内联inline元素*/
+    /*display: inline*/
+}
+
+img {
+    text-align: center
+}
