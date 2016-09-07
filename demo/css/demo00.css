@@ -1,0 +1,22 @@
+/*标签选择器*/
+h1 {
+    color: green;
+    font-weight: normal;
+}
+
+/*类选择器*/
+.first {
+    font-size: 32px;
+    color: blue;
+}
+
+
+/*第一代子类选择器*/
+.food > li {
+    border: 1px solid red;
+}
+
+/*后代选择器*/
+.books li {
+    border: 1px solid forestgreen
+}
