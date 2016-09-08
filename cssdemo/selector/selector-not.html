@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>not选择器</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+
+        form {
+            width: 200px;
+            margin: 20px auto;
+        }
+
+        div {
+            margin-bottom: 20px;
+        }
+    
+        /*选择type属性值不为submit的input控件*/
+        input:not([type="submit"]) {
+            border: 1px solid green;
+        }
+    </style>
+</head>
+
+<body>
+    
+    <form action="#">
+        <div>
+            <label for="name">Text Input:</label>
+            <input type="text" name="name" id="name" placeholder="John Smith" />
+        </div>
+        <div>
+            <label for="name">Password Input:</label>
+            <input type="text" name="name" id="name" placeholder="John Smith" />
+        </div>
+        <div>
+            <input type="submit" value="Submit" />
+        </div>
+    </form> ​
+
+</body>
+
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>:first-child选择器</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        
+        /*子代选择器*/
+        ol > li {
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+
+        /*后代选择器*/
+        ol a {
+            font-size: 16px;
+            font-weight: normal;
+        }
+        
+        /*第一个子类选择器*/
+        ol > li:first-child {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+
+    <ol>
+        <li><a href="##">Link1</a></li>
+        <li><a href="##">Link2</a></li>
+        <li><a href="##">link3</a></li>
+    </ol>
+
+</body>
+
+</html>

@@ -1,0 +1,19 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+div {
+    width: 300px;
+    height: 200px;
+    background-color: palevioletred;
+    margin: 50px;
+}
+
+div.main.left {
+    float: left;
+}
+
+div.main.right {
+    float: right;
+}

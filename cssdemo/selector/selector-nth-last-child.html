@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>:nth-last-child(n)选择器</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style>
+        table {
+            border-collapse: collapse;
+            margin: 0px auto;
+        }
+        
+        table {
+            width: 500px;
+        }
+        
+        th {
+            height: 30px;
+        }
+
+        td {
+            height: 25px;
+            text-align: center;
+            vertical-align: center;
+        }
+        
+        table,
+        th,
+        td {
+            border: 1px solid blue;
+        }
+
+        /*从最后一个开始选择偶数行，n从0开始计数*/
+        table tr:nth-last-child(2n+2) {
+            color: red;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <table id="table-5">
+
+        <caption>学历统计信息表</caption>
+
+        <thead>
+            <tr>
+                <th>姓名</th>
+                <th>年龄</th>
+                <th>学历</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>王建新</td>
+                <td>22</td>
+                <td>本科</td>
+            </tr>
+            <tr>
+                <td>王建新</td>
+                <td>22</td>
+                <td>本科</td>
+            </tr>
+            <tr>
+                <td>王建新</td>
+                <td>22</td>
+                <td>本科</td>
+            </tr>
+            <tr>
+                <td>王建新</td>
+                <td>22</td>
+                <td>本科</td>
+            </tr>
+            <tr>
+                <td>王建新</td>
+                <td>22</td>
+                <td>本科</td>
+            </tr>
+            <tr>
+                <td>王建新</td>
+                <td>22</td>
+                <td>本科</td>
+            </tr>
+        </tbody>
+
+    </table>
+
+
+</body>
+
+</html>

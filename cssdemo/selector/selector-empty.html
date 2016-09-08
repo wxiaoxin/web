@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>empty选择器</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        div {
+            width: 300px;
+            height: 200px;
+            background-color: green;
+            margin: 50px;
+        }
+
+        div.nothing {
+            background-color: red;
+        }
+        
+        div.black {
+            background-color: blue;
+        }
+
+        /*选择空的div元素*/
+        div:empty {
+            display: none;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <h2>:empty 空选择器，选择没有任何内容的元素，这里的没有内容指的是任何内容都没有，包括空格、换行等</h2>
+
+    <div>
+        这是一个非空的div
+    </div>
+
+    <!-- 空div将会被隐藏 -->
+    <div class="nothing"></div>
+
+    <!-- div中有空格，因此div:empty无法选择到该div，将会正常显示-->
+    <div class="black"> </div>
+
+</body>
+
+</html>
